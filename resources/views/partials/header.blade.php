@@ -6,31 +6,31 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           
-            <a class="nav-link" href="#">CHARACTERS</a>
+            <a class="nav-link" href="{{route('characters')}}">CHARACTERS</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">COMICS</a>
+            <a class="nav-link" href="{{route('comics')}}">COMICS</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">MOVIES</a>
+            <a class="nav-link" href="{{route('movies')}}">MOVIES</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">TV</a>
+            <a class="nav-link" href="{{route('tv')}}">TV</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">GAMES</a>
+            <a class="nav-link" href="{{route('games')}}">GAMES</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">COLLECTIBLES</a>
+            <a class="nav-link" href="{{route('collectibles')}}">COLLECTIBLES</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">VIDEOS</a>
+            <a class="nav-link" href="{{route('videos')}}">VIDEOS</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">FANS</a>
+            <a class="nav-link" href="{{route('fans')}}">FANS</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">NEWS</a>
+            <a class="nav-link" href="{{route('news')}}">NEWS</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
