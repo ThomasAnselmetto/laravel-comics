@@ -12,8 +12,17 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+
+// IMPORTO DB
+// Route::get('/', function () {
+//   $comics = config('comicsdb.comics');
+//     return view('homepage', compact('comics'));
+// })->name('comics');
+
+
 Route::get('/', function () {
-    return view('partials/main');
+    $comics = config('comicsdb.comics');
+    return view('partials/main',compact('comics'));
 })->name('homepage');
 
 Route::get('/characters', function () {
